@@ -8,8 +8,8 @@
  * isOdd(10) -> false
  */
 function isOdd(n) {
-    // Your code here
-    return !((n%2) === 0);
+  // Your code here
+  return !(n % 2 === 0);
 }
 
 /**
@@ -22,9 +22,9 @@ function isOdd(n) {
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
-    // Your code here
-    const numberOfOdds = Math.floor(n/2);
-    return numberOfOdds;
+  // Your code here
+  const numberOfOdds = Math.floor(n / 2);
+  return numberOfOdds;
 }
 
 /**
@@ -38,10 +38,10 @@ function oddsSmallerThan(n) {
  * squareOrDouble(9) -> 81
  */
 function squareOrDouble(n) {
-    // Your code here
-    let result = 0;
-    if (n%2 === 0) result = n*2;
-    else result = n*n;
+  // Your code here
+  let result = 0;
+  if (n % 2 === 0) result = n * 2;
+  else result = n * n;
 
-    return result;
+  return result;
 }
