@@ -45,6 +45,3 @@ function squareOrDouble(n) {
 
     return result;
 }
-
-  console.log(squareOrDouble(16));
-  console.log(squareOrDouble(9));
